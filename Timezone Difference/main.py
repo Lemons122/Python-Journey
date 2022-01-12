@@ -6,7 +6,7 @@ i = 1
 eastern = pytz.timezone('US/Eastern')
 
 while i < 10:
-    datetime_booba = datetime.now(eastern)
-    print("Booba's Time:", datetime_booba.strftime("%H:%M:%S"))
+    datetime_test = datetime.now(eastern)
+    print("Eastern Time:", datetime_test.strftime("%H:%M:%S"))
     time.sleep(3)
     
